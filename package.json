@@ -18,7 +18,7 @@
     "prettier": "prettier -c .",
     "prettier:fix": "prettier -w .",
     "storybook": "start-storybook -p 6006",
-    "storybook:export": "build-storybook",
+    "build-storybook": "build-storybook",
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
   },
