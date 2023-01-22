@@ -24,16 +24,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haggs/practice-react-from-scratch-component-library.git"
+    "url": "git+https://github.com/haggs/template-storybook-react-library.git"
   },
   "author": {
     "name": "Dan Haggerty"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haggs/practice-react-from-scratch-component-library/issues"
+    "url": "https://github.com/haggs/template-storybook-react-library/issues"
   },
-  "homepage": "https://github.com/haggs/practice-react-from-scratch-component-library#readme",
+  "homepage": "https://github.com/haggs/template-storybook-react-library#readme",
   "peerDependencies": {
     "react": ">= 18",
     "react-dom": ">= 18",
@@ -73,5 +73,5 @@
     "classnames": "^2.3.2"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "practice-react-from-scratch-component-library@4.0.1"
+  "_id": "template-storybook-react-library@4.0.1"
 }
