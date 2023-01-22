@@ -9,3 +9,6 @@ npm run generate MyComponent
 ```
 
 Then add the new component to `src/index.ts`
+
+Example storybook can be seen at:
+https://haggs.github.io/template-storybook-react-library/
