@@ -1,6 +1,6 @@
 # template-storybook-react-library
 
-A template for creating React component libraries using Storybook, styled-components, and typescript
+A template for creating React component libraries using Storybook, styled-components, and typescript.
 
 To create a component, run:
 

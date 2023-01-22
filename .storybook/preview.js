@@ -10,6 +10,8 @@
  * - parameters - an object of global parameters
  * - globalTypes - definition of globalTypes
  */
+import React from 'react';
+import { GlobalStyle } from '../src/shared/global';
 
 /**
  * Decorators
@@ -23,6 +25,14 @@
  *
  * Each story throughout the library will be wrapped in a div with a margin of 3
  */
+export const decorators = [
+  (Story) => (
+    <>
+      <GlobalStyle />
+      <Story />
+    </>
+  ),
+];
 
 /**
  * Parameters
@@ -41,6 +51,9 @@
  *
  * With backgrounds, you configure the list of backgrounds that every story can render in.
  */
+export const parameters = {
+  actions: { argTypesRegex: '^on[A-Z].*' },
+};
 
 /**
  * Global Types
@@ -65,19 +78,3 @@
  *
  * Will add a new dropdown in your toolbar with options light and dark.
  **/
-
-import React from 'react';
-import { GlobalStyle } from '../src/shared/global';
-
-export const decorators = [
-  (Story) => (
-    <>
-      <GlobalStyle />
-      <Story />
-    </>
-  ),
-];
-
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-};

@@ -1,7 +1,7 @@
 {
-  "name": "practice-react-from-scratch-component-library",
-  "version": "4.0.1",
-  "description": "A collection of from-scratch simple UI components, intended for practicing React/CSS for interviews",
+  "name": "template-storybook-react-library",
+  "version": "1.0.0",
+  "description": "A template for creating React component libraries using Storybook, styled-components, and typescript.",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -20,8 +20,7 @@
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build",
-    "chromatic": "npx chromatic --project-token=e27df618d3eb"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

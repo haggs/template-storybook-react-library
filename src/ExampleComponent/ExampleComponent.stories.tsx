@@ -8,8 +8,7 @@ export default {
     foo: { control: 'text' },
   },
 };
-
-export const Template = (args) => <ExampleComponent {...args} />;
+const Template = (args) => <ExampleComponent {...args} />;
 
 export const Standard = Template.bind({});
 Standard.args = {
